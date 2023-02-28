@@ -2,3 +2,13 @@
   font-family: "Poppins", sans-serif;
   background-color: rgb(17, 17, 34);
 }
+
+.among {
+  cursor: pointer;
+  margin: 10px;
+  display: flex;
+}
+
+.among span {
+  align-self: flex-end;
+}
