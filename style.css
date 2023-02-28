@@ -1,4 +1,4 @@
-.background {
+body {
   font-family: "Poppins", sans-serif;
   text-align: center;
   background-color: rgb(17, 17, 34);
@@ -9,6 +9,7 @@
   margin: auto;
   padding: 10px;
   width: 250px;
+  transition-duration: 0.4s;
 }
 
 .among:hover {
