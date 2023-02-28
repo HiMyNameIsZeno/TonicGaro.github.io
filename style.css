@@ -5,12 +5,9 @@
 }
 
 .among {
+  align: center;
   cursor: pointer;
   margin: auto;
   padding: 10px;
   display: flex;
-}
-
-.among span {
-  align-self: flex-end;
 }
