@@ -9,7 +9,8 @@ body {
 
 .among {
   cursor: pointer;
-  margin: 10px;
+  margin: auto;
+  padding: 10px;
   display: flex;
 }
 
