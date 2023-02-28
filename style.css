@@ -1,9 +1,6 @@
-body {
-  text-align: center;
-}
-
 .background {
   font-family: "Poppins", sans-serif;
+  text-align: center;
   background-color: rgb(17, 17, 34);
 }
 
