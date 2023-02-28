@@ -10,3 +10,7 @@
   padding: 10px;
   width: 250px;
 }
+
+.among:hover {
+  background-color: rgb(37, 37, 54);
+}
