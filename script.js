@@ -1,6 +1,6 @@
-let susbtn = document.getElementById('among');
+console.log('hey smily :)');
 
 function susload() {
-  susbtn.innerHTML = `Loading ...`
+  document.getElementById('among').innerHTML = `Loading ...`
   window.location.replace('/among.html');
 }
