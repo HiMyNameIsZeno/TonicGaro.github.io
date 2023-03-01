@@ -1,3 +1,3 @@
-const susbutton = document.getElementById('among');
+let susbutton = document.getElementById('among');
 
 susbutton.onclick = window.location = '/among.html';
