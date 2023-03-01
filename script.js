@@ -3,7 +3,9 @@ console.log('hey smily :)');
 let susbtn = document.getElementById('among')
 let susbtnclass = document.querySelector('.among')
 
-susbtn.onclick = susload()
+susbtn.onclick = function() {
+  susload()
+}
 
 function susload() {
   susbtn.innerHTML = `Loading ...`
