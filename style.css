@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&display=swap");
 
-body {
+* {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
   text-align: center;
   color: #E1D9D1;
   background-color: rgb(17, 17, 34);
