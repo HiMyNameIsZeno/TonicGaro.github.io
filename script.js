@@ -1,9 +1,15 @@
+window.onload = function() {
+
 console.log('hey smily :)');
+  
+const susbtn = document.getElementById('among');
+const susbtnclass = document.querySelector('.among');
 
 function susload() {
-  document.getElementById('among').innerHTML = `Loading ...`
-  document.querySelector('.among').style.cursor = 'default';
+  susbtn.innerHTML = `Loading ...`
+  susbtnclass.style.cursor = 'default';
   window.location.replace('/among.html');
 }
 
-document.getElementById('among').addEventListener('click', susload);
+susbtn.addEventListener('click', susload);
+}
