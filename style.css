@@ -8,6 +8,14 @@ body {
   background-color: rgb(17, 17, 34);
 }
 
+img {
+  border-radius: 6.5px;
+}
+
+p {
+  position: relative;
+}
+
 .among {
   cursor: pointer;
   margin: auto;
