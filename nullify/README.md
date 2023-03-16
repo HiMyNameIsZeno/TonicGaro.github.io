@@ -4,5 +4,3 @@ Run this code to use:</p>
 ```js
 javascript:fetch('https://tonicgaro.github.io/nullify/main.js').then(r => r.text()).then(r => eval(r))
 ```
-
-<p align="center">Theme Manager coming soon ...</p>
