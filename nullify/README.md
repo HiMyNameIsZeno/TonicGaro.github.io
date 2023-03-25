@@ -1,2 +1,0 @@
-<p align="center">Version of Nullify designed to be as fast and less buggy as possible.<br><br>
-Copy all the code <a href="https://tonicgaro.github.io/nullify/main.js">here</a> and run it in the console to use.</p>
