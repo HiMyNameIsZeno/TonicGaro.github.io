@@ -3,12 +3,11 @@ console.info('%chey smily :)', 'color: #20c20e');
 
 // consts for grabbing element ids / classnames
 const susbtn = document.getElementById('among');
-const susbtnclass = document.querySelector('.among');
 
 // functions
 function susload() {
   susbtn.innerHTML = `Loading ...`
-  susbtnclass.style.cursor = 'not-allowed';
+  susbtn.style.cursor = 'not-allowed';
   window.location.replace('/among.html');
 }
 
