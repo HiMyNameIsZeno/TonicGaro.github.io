@@ -6,8 +6,6 @@ const susbtn = document.getElementById('among');
 const susbtnclass = document.querySelector('.among');
 
 // functions
-
-// function to load among us
 function susload() {
   susbtn.innerHTML = `Loading ...`
   susbtnclass.style.cursor = 'not-allowed';
