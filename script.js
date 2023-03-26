@@ -5,7 +5,7 @@ const susbtnclass = document.querySelector('.among');
 
 function susload() {
   susbtn.innerHTML = `Loading ...`
-  susbtnclass.style.cursor = 'default';
+  susbtnclass.style.cursor = 'not-allowed';
   window.location.replace('/among.html');
 }
 
