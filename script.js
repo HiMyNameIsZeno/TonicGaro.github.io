@@ -7,7 +7,7 @@ const susbtn = document.getElementById('among');
 // functions
 function susload() {
   susbtn.innerHTML = `Loading ...`
-  susbtn.style.cursor = 'not-allowed';
+  susbtn.style.cursor = 'not-allowed'
   window.location.replace('/among.html');
 }
 
