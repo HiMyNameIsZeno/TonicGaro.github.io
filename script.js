@@ -14,26 +14,8 @@ function susload() {
   window.location.replace('/games/among.html');
 }
 
-function alienload() {
-  alienbtn.innerHTML = `Loading ...`
-  alienbtn.style.cursor = 'not-allowed'
-  window.location.replace('/games/alienhominid.html');
-}
-
-function dadload() {
-  dadbtn.innerHTML = `Loading ...`
-  dadbtn.style.cursor = 'not-allowed'
-  window.location.replace('/games/dadnme.html');
-}
-
-function meatload() {
-  dadbtn.innerHTML = `Loading ...`
-  dadbtn.style.cursor = 'not-allowed'
-  window.location.replace('/games/meatboy.html');
-}
-
 // click listeners for btns, runs their respective functions
 susbtn.addEventListener('click', susload);
-alienbtn.addEventListener('click', alienload);
-dadbtn.addEventListener('click', dadload);
-meatbtn.addEventListener('click', meatload);
+alienbtn.addEventListener('click', function() { window.location.href = '/games/alienhominid.html' });
+dadbtn.addEventListener('click', function() { window.location.href = '/games/dadnme.html' });
+meatbtn.addEventListener('click', function() { window.location.href = '/games/meatboy.html' });
