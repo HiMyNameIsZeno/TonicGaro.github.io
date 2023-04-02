@@ -8,7 +8,7 @@ const susbtn = document.getElementById('among');
 function susload() {
   susbtn.innerHTML = `Loading ...`
   susbtn.style.cursor = 'not-allowed'
-  window.location.replace('/among.html');
+  window.location.replace('/games/among.html');
 }
 
 // click listeners for btns, runs their respective functions
