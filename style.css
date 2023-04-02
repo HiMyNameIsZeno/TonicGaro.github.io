@@ -19,6 +19,7 @@ p {
 .button {
   cursor: pointer;
   margin: auto;
+  float: left;
   padding: 10px;
   width: 250px;
   border-radius: 6.5px;
