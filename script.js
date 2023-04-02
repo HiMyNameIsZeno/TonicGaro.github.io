@@ -5,6 +5,7 @@ console.info('%chey smily :)', 'color: #20c20e');
 const susbtn = document.getElementById('among');
 const alienbtn = document.getElementById('alien');
 const dadbtn = document.getElementById('dadnme');
+const meatbtn = document.getElementById('meatboy');
 
 // functions
 function susload() {
@@ -25,7 +26,14 @@ function dadload() {
   window.location.replace('/games/dadnme.html');
 }
 
+function meatload() {
+  dadbtn.innerHTML = `Loading ...`
+  dadbtn.style.cursor = 'not-allowed'
+  window.location.replace('/games/meatboy.html');
+}
+
 // click listeners for btns, runs their respective functions
 susbtn.addEventListener('click', susload);
 alienbtn.addEventListener('click', alienload);
 dadbtn.addEventListener('click', dadload);
+meatbtn.addEventListener('click', meatload);
