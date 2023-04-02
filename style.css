@@ -16,7 +16,7 @@ p {
   position: relative;
 }
 
-.among {
+.button {
   cursor: pointer;
   margin: auto;
   padding: 10px;
@@ -25,6 +25,6 @@ p {
   transition-duration: 0.4s;
 }
 
-.among:hover {
+.button:hover {
   background-color: rgb(37, 37, 54);
 }
