@@ -3,7 +3,7 @@ console.info('%chey smily :)', 'color: #20c20e');
 
 // consts for grabbing element ids / classnames
 const susbtn = document.getElementById('among');
-const alienbtn document.getElementById('alien');
+const alienbtn = document.getElementById('alien');
 
 // functions
 function susload() {
