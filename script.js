@@ -3,6 +3,7 @@ console.info('%chey smily :)', 'color: #20c20e');
 
 // consts for grabbing element ids / classnames
 const susbtn = document.getElementById('among');
+const alienbtn document.getElementById('alien');
 
 // functions
 function susload() {
@@ -11,5 +12,12 @@ function susload() {
   window.location.replace('/games/among.html');
 }
 
+function alienload() {
+  alienbtn.innerHTML = `Loading ...`
+  alienbtn.style.cursor = 'not-allowed'
+  window.location.replace('/games/alienhominid.html');
+}
+
 // click listeners for btns, runs their respective functions
 susbtn.addEventListener('click', susload);
+alienbtn.addEventListener('click', alienload);
