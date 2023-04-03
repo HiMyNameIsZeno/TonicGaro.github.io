@@ -21,12 +21,9 @@
       const container = document.getElementById("container");
       container.appendChild(player);
       player.load("flash/59593_alien_booya.swf");
+      player.style.width = '550px';
+      player.style.height = '400px;
     });
-
-    window.onload = function() {
-      document.querySelector("#container > ruffle-player").style.width = '550px'
-      document.querySelector("#container > ruffle-player").style.height = '400px'
-    }
   </script>
   <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 </body>
