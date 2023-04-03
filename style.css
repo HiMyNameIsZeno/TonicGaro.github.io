@@ -4,6 +4,8 @@ body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
   color: #E1D9D1;
   background-color: rgb(17, 17, 34);
 }
