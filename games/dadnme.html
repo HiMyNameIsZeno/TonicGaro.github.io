@@ -21,12 +21,9 @@
       const container = document.getElementById("container");
       container.appendChild(player);
       player.load("flash/254456_DadNMeNewgrounds.swf");
+      player.style.width = '800px';
+      player.style.height = '600px';
     });
-
-    window.onload = function() {
-      document.querySelector("#container > ruffle-player").style.width = '800px'
-      document.querySelector("#container > ruffle-player").style.height = '600px'
-    }
   </script>
   <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 </body>
