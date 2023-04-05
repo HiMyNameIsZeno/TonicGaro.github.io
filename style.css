@@ -39,9 +39,4 @@ p {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  transition-duration: 0.4s;
-}
-
-.fullbtn:hover {
-  background-color: rgb(37, 37, 54);
 }
