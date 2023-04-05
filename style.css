@@ -31,3 +31,12 @@ p {
 .button:hover {
   background-color: rgb(37, 37, 54);
 }
+
+.fullbtn {
+  vertical-align: top;
+  position: absolute;
+  margin-left: 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
