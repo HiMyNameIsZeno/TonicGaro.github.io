@@ -2,6 +2,8 @@ const oldEval = eval; // allows to fallback to normal eval when done
 eval = function() {} // disables eval globally
 html5Iframe.contentWindow.eval = function() {} // disables eval on lesson iframe
 
+debug(lessonBridge.start), lessonBridge.start(); // makes lessonBridge.start() vulnerable and submissive
+
 window.p1 = q6C; // unlocks a ton of iready dev functions
 
 window.p2 = function() { return Q2(new m$()); } // allows componentPause to be used globally
