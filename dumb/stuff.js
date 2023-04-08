@@ -2,9 +2,7 @@ const oldEval = eval; // allows to fallback to normal eval when done
 eval = function() {} // disables eval globally
 html5Iframe.contentWindow.eval = function() {} // disables eval on lesson iframe
 
-lessonBridge.bruh = function() {} // creates blank lessonBridge function
-
-debug(lessonBridge.bruh), lessonBridge.bruh(); // allows to run p1 exploit
+debug(lessonBridge.start), lessonBridge.start(); // allows to run p1 exploit
 
 window.p1 = q6C; // unlocks a ton of iready dev functions
 
